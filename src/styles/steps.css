@@ -32,30 +32,30 @@ color: #939caa;
     position: absolute;
     z-index: 1;
     left: 0;
-    bottom: -147px;
+    top: 972px;
 }
 @media(max-width:1260px){
     .stick2 {
         left: -138px;
-        bottom: -147px;
+        top: 974px;
     }
 }
 @media(max-width:1100px){
     .stick2 {
         left: -235px;
-        bottom: -147px;
+        top: 974px;
     }
 }
 @media(max-width:950px){
     .stick2 {
         left: -335px;
-        bottom: -147px;
+        top: 945px;
     }
 }
 @media(max-width:900px){
     .stick2 {
         left: -370px;
-        bottom: -121px;
+        top: 945px;
     }
 }
 @media(max-width:800px){
