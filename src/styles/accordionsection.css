@@ -1,0 +1,116 @@
+.accordion__item{
+  display: none;
+}
+.accordionsection{
+  padding: 120px 0;
+}
+.accordionsection h2{
+  font-family: var(--font-family);
+font-weight: 700;
+font-size: 48px;
+line-height: 100%;
+letter-spacing: -0.04em;
+text-align: center;
+color: #495567;
+margin-bottom: 64px;
+}
+.how_it_works{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 30px;
+}
+.how_it_works__content{
+  max-width: 730px;
+  width: 100%;
+}
+.safe_driving{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 30px;
+}
+.safe_driving__content{
+  max-width: 730px;
+  width: 100%;
+}
+.accordion{
+  width: 100%;
+  padding: 32px 40px;
+  background: #f2f5f9;
+  margin-top: 16px;
+  border: none;
+  font-family: var(--font-family);
+font-weight: 700;
+font-size: 24px;
+line-height: 117%;
+letter-spacing: -0.04em;
+color: #495567;
+text-align: left;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.accordion h3{
+  font-family: var(--font-family);
+font-weight: 700;
+font-size: 24px;
+line-height: 117%;
+letter-spacing: -0.04em;
+color: #495567;
+}
+.show__acc{
+  display: block;
+}
+.accordion__item{
+  font-family: var(--second-family);
+font-weight: 400;
+font-size: 15px;
+line-height: 167%;
+color: #495567;
+background: #f2f5f9;
+padding: 0 40px 32px;
+
+}
+.rotation{
+  transform: translateY(-50%) rotate(180deg);
+}
+@media(max-width:800px){
+  .how_it_works {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+}
+  .safe_driving {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0;
+}
+.accordionsection h2 {
+  font-size: 48px;
+  line-height: 100%;
+  margin-bottom: 32px;
+}
+}
+@media(max-width:500px){
+  .accordion {
+    font-size: 18px;
+}
+.how_it_works h2{
+  font-size: 24px;
+}
+.safe_driving h2{
+  font-size: 24px;
+}
+.accordionsection h2 {
+  font-size: 32px;
+  line-height: 100%;
+  margin-bottom: 32px;
+}
+}

@@ -1,0 +1,36 @@
+.locationhero{
+    background-image: url("../img/locationsbg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 72px 0;
+    position: relative;
+    z-index: -1;
+}
+.locationhero h1{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 56px;
+line-height: 100%;
+letter-spacing: -0.04em;
+color: #fff;
+}
+.locationhero img{
+    position: absolute;
+    top: 68.5px;
+    right: 0;
+}
+@media(max-width:600px){
+    .locationhero img{
+        display: none;
+    } 
+    .locationhero h1{
+        text-align: center;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 100%;
+    }
+    .locationhero{
+    margin-top: 85px;
+    }
+}

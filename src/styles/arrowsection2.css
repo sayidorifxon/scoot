@@ -1,0 +1,102 @@
+.arrowsection2{
+    padding: 120px 0;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.arrowsection2__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.arrowsection2__content h2{
+    max-width: 445px;
+    width: 100%;
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 48px;
+line-height: 100%;
+letter-spacing: -0.04em;
+color: #495567;
+margin-bottom: 24px;
+}
+.arrowsection2__content p{
+    max-width: 445px;
+    width: 100%;
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 15px;
+line-height: 167%;
+color: #939caa;
+margin-bottom: 40px;
+}
+.arrowpic2{
+    position: absolute;
+    top: 120px;
+    left: 0;
+}
+.person2{
+        max-width: 445px;
+        width: 100%;
+}
+.section__reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+@media(max-width:1000px){
+    .arrowsection2__content p {
+        max-width: 269px;
+        width: 100%;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 167%;
+        margin-bottom: 40px;
+    } 
+    .arrowsection2__content h2 {
+        max-width: 256px;
+        width: 100%;
+        font-size: 35px;
+        line-height: 100%;
+        margin-bottom: 15px;
+    }
+    .person2{
+        max-width: 400px;
+    }
+}
+@media(max-width:800px){
+    .arrowsection2__wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 64px;
+    }
+}
+@media(max-width:500px){
+    .arrowpic2 {
+        position: absolute;
+        top: 149px;
+        left: -34px;
+        width: 300px;
+    }
+}
+@media(max-width:375px){
+    .arrowsection2__content h2 {
+        max-width: 311px;
+        width: 100%;
+        font-size: 32px;
+        line-height: 100%;
+        margin-bottom: 32px;
+    }
+    .arrowsection2__content p {
+        max-width: 311px;
+        width: 100%;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 167%;
+        margin-bottom: 40px;
+    }
+}

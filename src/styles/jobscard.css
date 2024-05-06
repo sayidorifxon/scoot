@@ -1,0 +1,108 @@
+.jobscard{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 40px 35px;
+    margin-bottom: 24px;
+    background: #f2f5f9;
+}
+.jobscard h3{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 24px;
+line-height: 117%;
+letter-spacing: -0.04em;
+color: #495567;
+margin-bottom: 8px;
+}
+.jobscard p{
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 15px;
+line-height: 167%;
+color: #495567;
+}
+.jobscard a{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 15px;
+line-height: 167%;
+text-align: center;
+color: #fff;
+display: flex;
+align-items: center;
+justify-content: center;
+text-decoration: none;
+width: 180px;
+height: 53px;
+background: #fcb72b;
+}
+.jobscard a:active{
+    color: #fcb72b;
+    background-color: transparent;
+    border: 3px solid #fcb72b ;
+}
+@media(max-width:700px){
+    .jobscard h3 {
+        font-size: 19px;
+        margin-bottom: 5px;
+    }
+    .jobscard p {
+        font-weight: 400;
+        font-size: 12px;
+    }
+    .jobscard a {
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 167%;
+        width: 150px;
+        height: 45px;
+    }
+}
+@media(max-width:600px){
+    .jobscard h3 {
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+    .jobscard p {
+        font-weight: 400;
+        font-size: 11px;
+    }
+    .jobscard a {
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 167%;
+        width: 115px;
+        height: 35px;
+    }
+}
+@media(max-width:500px){
+    .jobscard {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 32px 40px 35px;
+        margin-bottom: 24px;
+        background: #f2f5f9;
+        gap: 16px;
+        text-align: center;
+    }
+    .jobscard h3 {
+        font-size: 18px;
+        margin-bottom: 4px;
+    }
+    .jobscard p {
+        font-weight: 400;
+        font-size: 15px;
+    }
+    .jobscard a {
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 167%;
+        width: 247px;
+        height: 53px;
+    }
+}
